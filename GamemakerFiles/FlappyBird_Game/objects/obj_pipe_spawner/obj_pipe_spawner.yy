@@ -9,8 +9,8 @@
   "name":"obj_pipe_spawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"FlappyBird_Game",
-    "path":"FlappyBird_Game.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
