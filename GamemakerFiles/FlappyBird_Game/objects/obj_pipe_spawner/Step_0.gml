@@ -13,6 +13,9 @@ if(spawn_timer >= spawn_delay)
 	
 	// Create bottom pipe
 	instance_create_layer(room_width, _pipe_y + pipe_gap, "Instances", obj_pipe_bottom);
+	
+	//Create point adder
+	instance_create_layer(room_width - 175 - 60, _pipe_y, "Instances", obj_point_adder);
 }
 
 
