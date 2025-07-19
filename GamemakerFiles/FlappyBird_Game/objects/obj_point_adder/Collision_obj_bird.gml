@@ -1,5 +1,7 @@
-/// @description Point add when bird enters
+/// @description Check collision
 
-user_score += 1;
-
-return user_score;
+if (!scored && obj_bird._IS_ALIVE) {
+    global._user_point += 1;
+    scored = true;
+    instance_destroy(); // remove the point adder so it doesn't repeat
+}

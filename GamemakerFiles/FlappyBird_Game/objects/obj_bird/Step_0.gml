@@ -27,5 +27,15 @@ if (_IS_ALIVE)
 }
 else
 {
+	audio_play_sound(snd_player_dead, 0, false);
+	instance_destroy();
+	
+	/*
+	if(!_sound_stop)
+	{
+		audio_play_sound(snd_player_dead, 0, false);
+		_sound_stop = true;
+	}
+	*/
 	return 0;
 }
