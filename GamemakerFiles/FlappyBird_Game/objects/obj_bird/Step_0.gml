@@ -1,6 +1,6 @@
 /// @description Bird behaviour
 
-if (_IS_ALIVE)
+if (global._IS_ALIVE)
 {
 	// Check SPACE input
 	if (keyboard_check_pressed(vk_space))
@@ -27,15 +27,7 @@ if (_IS_ALIVE)
 }
 else
 {
-	audio_play_sound(snd_player_dead, 0, false);
 	instance_destroy();
-	
-	/*
-	if(!_sound_stop)
-	{
-		audio_play_sound(snd_player_dead, 0, false);
-		_sound_stop = true;
-	}
-	*/
+
 	return 0;
 }

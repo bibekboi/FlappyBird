@@ -2,7 +2,7 @@
 
 spawn_timer += 1;
 
-if(spawn_timer >= spawn_delay)
+if(spawn_timer >= spawn_delay && global._IS_ALIVE)
 {
 	spawn_timer = 0;
 	

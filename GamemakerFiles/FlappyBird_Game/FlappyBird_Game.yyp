@@ -42,7 +42,6 @@
     {"id":{"name":"obj_pipe_spawner","path":"objects/obj_pipe_spawner/obj_pipe_spawner.yy",},},
     {"id":{"name":"obj_pipe_top","path":"objects/obj_pipe_top/obj_pipe_top.yy",},},
     {"id":{"name":"obj_point_adder","path":"objects/obj_point_adder/obj_point_adder.yy",},},
-    {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},},
     {"id":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},
     {"id":{"name":"snd_game_music","path":"sounds/snd_game_music/snd_game_music.yy",},},
     {"id":{"name":"snd_player_dead","path":"sounds/snd_player_dead/snd_player_dead.yy",},},

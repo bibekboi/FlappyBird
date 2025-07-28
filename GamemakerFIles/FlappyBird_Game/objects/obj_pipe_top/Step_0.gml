@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-if(obj_bird._IS_ALIVE)
+if (global._IS_ALIVE)
 {
 	x -= pipe_speed;
 } 
